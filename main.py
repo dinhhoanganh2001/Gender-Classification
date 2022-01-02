@@ -126,50 +126,15 @@ def L_layer_model(X, Y, layers_dims, learning_rate=0.01, num_iterations=3000, pr
 
     # np.random.seed(1)
     costs = []  # keep track of cost
-
-    # Parameters initialization.
-    # (≈ 1 line of code)
-    # parameters = ...
-    # YOUR CODE STARTS HERE
     parameters = initialize_parameters_deep(layers_dims)
-    print(parameters)
 
-    # YOUR CODE ENDS HERE
 
     # Loop (gradient descent)
     for i in range(0, num_iterations):
-
-        # Forward propagation: [LINEAR -> RELU]*(L-1) -> LINEAR -> SIGMOID.
-        # (≈ 1 line of code)
-        # AL, caches = ...
-        # YOUR CODE STARTS HERE
         AL, caches = L_model_forward(X, parameters)
-
-        # YOUR CODE ENDS HERE
-
-        # Compute cost.
-        # (≈ 1 line of code)
-        # cost = ...
-        # YOUR CODE STARTS HERE
         cost = compute_cost(AL, Y)
-
-        # YOUR CODE ENDS HERE
-
-        # Backward propagation.
-        # (≈ 1 line of code)
-        # grads = ...
-        # YOUR CODE STARTS HERE
         grads = L_model_backward(AL, Y, caches)
-
-        # YOUR CODE ENDS HERE
-
-        # Update parameters.
-        # (≈ 1 line of code)
-        # parameters = ...
-        # YOUR CODE STARTS HERE
         parameters = update_parameters(parameters, grads, learning_rate)
-
-        # YOUR CODE ENDS HERE
 
         # Print the cost every 100 iterations
         if print_cost and i % 100 == 0 or i == num_iterations - 1:
