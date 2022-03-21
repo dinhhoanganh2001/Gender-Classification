@@ -63,4 +63,3 @@ This is result when I test with a sample image.
 [2] Neural Networks and Deep Learning (Course on Coursera)-Andrew Ng.  
 [3] B.A.Golomb, D.T.Lawrence, T.J.Sejnowski (1991), SEXNET: A Neural Network Identifies Sex from Human Faces.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
