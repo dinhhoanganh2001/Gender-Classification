@@ -43,6 +43,9 @@ The table below show the performance of model on trainning set and test set.
 | Trainning set      | 0.99       |
 | Test set   | 0.93        |
 
+This is result when I test with a sample image.
+<p style="text-align:center;"><img src="https://firebasestorage.googleapis.com/v0/b/pipai212.appspot.com/o/Test.PNG?alt=media&token=2245d600-c226-45f1-a774-6558f20ca0cd" width="500"></p>
+
 ## Challenges
 
 *  The dataset is small and does not come from Vietnam.
