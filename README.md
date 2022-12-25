@@ -11,7 +11,7 @@ In this project I will implement a gender classification algorithm using **Deep 
 
 ## Background
 
-I do this project for Machine Learning course in my university. This is my first ML project so it is simple and just focus on Deep Neural Network without any regularization method. I decide to implement from scratch by Python to improve my coding skill and also improve.
+I do this project for Machine Learning course in my university. This is my first ML project so it is simple and just focus on Deep Neural Network without any regularization method. I decide to implement from scratch by Python to improve my coding skill and knowledge about deep learning.
 
 The problem is describe as:
 *  Get an input image.
